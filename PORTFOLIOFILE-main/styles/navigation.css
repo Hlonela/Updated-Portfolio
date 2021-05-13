@@ -1,0 +1,125 @@
+ul {
+  list-style: none;
+}
+
+#logo {
+  float: left;
+  width: 25px;
+  font-size: 30px;
+  font-weight: 700;
+  color: goldenrod;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+width: 100%;
+overflow: hidden;
+height: 70px;
+line-height: 70px;
+background-color: white;
+background: white;
+border-bottom: 2px solid goldenrod;
+
+}
+nav .container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav .container ul {
+  float: right;
+
+}
+nav .container li {
+  float: left;
+  width: 120px;
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+}
+.container li a {
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  display: block;
+
+}
+nav .container li:hover {
+  background: #dc35;
+}
+.container li a:hover{
+  color: #fff;
+}
+/* nav .container {
+width: 90%;
+margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  height: 25px;
+  line-height: 25px;
+  background: black;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  position: fixed;
+  top: 0;
+}
+
+nav .container ul {
+  float: right;
+  display: flex;
+  padding: 0% 0% 0% 10%; 
+}
+
+ nav a:hover {
+color: goldenrod;
+} 
+
+ nav a {
+  position: relative;
+}
+
+nav ul li a {
+  margin: 20px;
+  font-family: sans-serif;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 5px;
+
+  
+}
+ #logo {
+  float: left;
+  font-size: 30px;
+  width: 60px;
+  font-weight: 700;
+  color: goldenrod;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul li a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: goldenrod;
+
+
+  position: absolute;
+  top: 0px;
+  width: 0%;
+
+  transition: 250ms;
+}
+nav ul li a:hover::before {
+  width: 100%;
+}  */

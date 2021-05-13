@@ -1,0 +1,35 @@
+.left-content .home-section .home-content #name {
+  font-family: "Rubik Mono One", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  color: black;
+  margin: 0 auto 15px;
+  text-align: center;
+  position: relative;
+  max-width: 600px;
+  margin-top: 150px ;
+  margin-bottom: 0px;
+}
+
+.left-content .home-section .home-content .her-surname {
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 500px;
+  color: black;
+  font-family: "Rubik Mono One", sans-serif;
+  position: relative;
+  left: 80px;
+}
+.part {
+  vertical-align: middle !important;
+}
+.left-content .home-section .home-content .introduce {
+  font-weight: 50px;
+  color:white;
+  text-align: center;
+  font-family: 'Farro', sans-serif;
+  font-size: 20px;
+  margin: 100px;
+  display: flex;
+  border-width: 150px;
+}

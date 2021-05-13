@@ -1,0 +1,46 @@
+.testimonial-section .testimonial-content {
+  text-align: center;
+}
+.testimonial-section .testimonial-content h1 {
+  font-size: 40px;
+}
+.testimonial-section .testimonial-content h5 {
+  font-size: 25px;
+  color: black;
+}
+.testimonial-section .testimonial-content h6 {
+  font-size: 20px;
+  color: goldenrod;
+}
+.testimonial-section .testimonial-content p {
+  font-size: 20px;
+}
+
+.testimonial-section .testimonial-content q {
+  font-size: 20px;
+  color: navy;
+  background-color: oldlace;
+}
+
+.left-content h1 {
+  color: goldenrod;
+}
+.slider {
+  display: flex;
+  align-items: center;
+  padding: 3%;
+  background: url(https://picsum.photos/1200);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 100%;
+  height: 50vh;
+}
+.slider img {
+  display: flex;
+  border-radius: 50%;
+  height: 20vh;
+  border-block-color: white;
+}

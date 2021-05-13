@@ -1,0 +1,61 @@
+.education-section .education-content {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.education-section .education-content h1 {
+  font-size: 40px;
+}
+ .education-section .education-content h1:before {
+  content: " ";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 60%;
+  z-index: -2;
+}
+
+ .education-section .education-content h1:after {
+  content: " ";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  right: 0;
+  top: 60%;
+  z-index: -2;
+}
+span {
+  background: #fff;
+}
+
+.education-section .education-content i {
+  font-style: normal;
+  font-variant-caps: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 14px;
+  line-height: 1;
+  font-family: FontAwesome;
+  font-size-adjust: none;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-variant-alternates: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-position: normal;
+  font-language-override: normal;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  font-size: inherit;
+  text-rendering: auto;
+}
+
+.education-section .education-content p {
+  font-size: 20px;
+}

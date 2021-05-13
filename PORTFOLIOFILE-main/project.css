@@ -1,0 +1,66 @@
+.project-section .project-content {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.project-section .project-content h1 {
+  font-size: 40px;
+}
+
+.project-section .project-content p {
+  font-size: 20px;
+}
+.project-section .project-content h3 {
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.project-section .project-content p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.project-section .project-content .pro {
+  padding: 15px 25px;
+}
+.project-section .project-content .pro{
+  margin: 0 15px 25px;
+  border-radius: 10px;
+  background: #fff;
+  border: goldenrod;
+
+}
+ .one{
+  border-color: goldenrod;
+  box-shadow: 3 1px 3px rgba (0, 0, 0, 0.12), 1 1px 2px rgba(0,0, 0.24);
+}
+ .two{
+  border-color: goldenrod;
+  box-shadow: 0 1px 3px rgba (0, 0, 0, 0.12), 0 1px 2px goldenrod (0,0, 0.24);
+}
+
+.project-section .project-content .pro .three{
+  border-color: goldenrod;
+  box-shadow: rgba (201, 76, 76);
+}
+.project-section {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.left-content h1 {
+  color: goldenrod;
+}
+
+
+.project-section .project-content * {
+  box-sizing: border-box;
+}
+
+
+@media (min-width: 768px) {
+  .project-section .project-content {
+    display: flex;
+  }
+}

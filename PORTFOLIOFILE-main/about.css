@@ -1,0 +1,53 @@
+.about-section .about-content {
+  text-align: center;
+  margin-top: 250px;
+}
+
+.about-section .about-content h1 {
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about-section .about-content p {
+  font-size: 20px;
+ 
+
+}
+
+.about-section .about-content #about-list {
+  text-align: left;
+  list-style: none;
+}
+
+.about-section .about-content #about-list li a {
+  color: #7777;
+}
+.about-section .about-content h1:before {
+  content: " ";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: -2;
+}
+
+.about-section .about-content h1:after {
+  content: " ";
+  display: block;
+  width: 120px;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: -2;
+}
+span {
+  background: #fff;
+}
